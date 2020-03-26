@@ -1,4 +1,5 @@
-
+config:
+  info: 123456
 spring:
   application:
     name: provider
@@ -10,7 +11,7 @@ spring:
     password: '#Ww123456'
 
 # 配置mybatis-plus
-mybatis-plus:
+ mybatis-plus:
   # 配置扫描xml
   mapper-locations:
     -  classpath:mapper/*.xml
